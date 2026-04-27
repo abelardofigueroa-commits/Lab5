@@ -1,0 +1,45 @@
+using UnityEngine;
+
+public class Ejercicio4 : MonoBehaviour
+{
+    public int VelocidadPlayer = 100;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        if (VelocidadPlayer == 0)
+        {
+            Debug.Log("Detenido");
+
+        }
+        else if (VelocidadPlayer == 10)
+        {
+            Debug.Log("Caminando");
+
+        }
+        else if (VelocidadPlayer == 20)
+        {
+            Debug.Log("Corriendo");
+        }
+        else if (VelocidadPlayer == 30)
+        {
+
+            Debug.Log("Sprint"); 
+
+
+
+
+        }
+
+        
+
+
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
