@@ -1,0 +1,51 @@
+using UnityEditor.Experimental.GraphView;
+using UnityEngine;
+
+public class hola : MonoBehaviour
+{
+    public int LifeActual = 100;
+    public int Damage = 20;
+
+
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        int FinaLife = LifeActual - Damage;
+
+
+       
+        if (FinaLife <= 0)
+        {
+            Debug.Log("Muelto cablo");
+        }
+        else if (FinaLife <= 30)
+        {
+            Debug.Log("Herido");
+        }
+        else if (FinaLife <= 100)
+        {
+            Debug.Log("Vivaso");
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+}
