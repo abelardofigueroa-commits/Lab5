@@ -1,0 +1,32 @@
+using UnityEngine;
+
+public class ejercicio3 : MonoBehaviour
+{
+
+    public int nivel = 9;
+    
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+
+        bool condicion1 = nivel >= 10;
+
+        if (condicion1)
+        {
+            print("PUEDES ACCEDER :)");
+        }
+        else
+        {
+            print("NO PUEDES ACCEDER :(");
+        }
+
+
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
