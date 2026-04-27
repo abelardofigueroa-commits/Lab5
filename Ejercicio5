@@ -1,0 +1,52 @@
+using JetBrains.Annotations;
+using UnityEngine;
+
+public class Ejercicio5 : MonoBehaviour
+{
+    string Palabra1 = "Polo";
+    string Palabra2 = "Pantano";
+    string Palabra3 = "Bosque";
+    string Palabra4 = "Pradera";
+     string JugadorLocal = "";
+    
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        if (JugadorLocal == Palabra1)
+        {
+            Debug.Log("nieve");
+        }
+        else if (JugadorLocal == Palabra2)
+
+        {
+            Debug.Log("lluvia");
+        }
+        else if (JugadorLocal == Palabra3)
+        {
+            Debug.Log("Nublado");
+        }
+        else if (JugadorLocal == Palabra4)
+        {
+            Debug.Log("Soleado");
+        }
+
+
+
+
+
+
+
+    }
+}
+
+
+    
+                
+                
+                
+                
+                
+                
+                
+        
