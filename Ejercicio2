@@ -1,0 +1,62 @@
+using System.Security.Cryptography.X509Certificates;
+using Unity.VisualScripting;
+using UnityEngine;
+
+public class ejercicio2 : MonoBehaviour
+{
+
+   public int PlayerPoints = 600;
+    
+    
+    
+    
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    
+    {
+        if (PlayerPoints == 100)
+        {
+            Debug.Log("Novato");
+        }
+        else if (PlayerPoints == 300)
+        {
+            Debug.Log("Intermedio");
+        }
+        else if (PlayerPoints == 600)
+        {
+            Debug.Log("Avanzado");
+
+        }
+        else if (PlayerPoints >= 600)
+        {
+            Debug.Log("Élite");
+        
+        
+        
+        
+        
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
